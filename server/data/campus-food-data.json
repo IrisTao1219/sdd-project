@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updatedAt": "2026-09-12T00:00:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "currency": "CNY",
+    "distanceReference": "校园中心教学楼",
+    "distanceUnit": "meter"
+  },
+  "restaurants": [
+    {
+      "id": "rest-001",
+      "name": "一食堂·家常菜档口",
+      "canteenName": "第一食堂",
+      "location": "第一食堂一层东侧",
+      "cuisines": ["家常菜", "中式快餐"],
+      "flavors": ["清淡", "咸鲜"],
+      "averagePrice": 18,
+      "businessHours": [
+        {
+          "days": [1, 2, 3, 4, 5, 6, 7],
+          "start": "10:30",
+          "end": "13:30",
+          "mealPeriods": ["lunch"]
+        },
+        {
+          "days": [1, 2, 3, 4, 5, 6, 7],
+          "start": "16:30",
+          "end": "19:30",
+          "mealPeriods": ["dinner"]
+        }
+      ],
+      "distanceMeters": 350,
+      "rating": 4.5,
+      "dietaryWarnings": [],
+      "dishIds": ["dish-001", "dish-002"],
+      "description": "提供日常家常菜和套餐，出餐速度较快。"
+    },
+    {
+      "id": "rest-002",
+      "name": "一食堂·面香园",
+      "canteenName": "第一食堂",
+      "location": "第一食堂二层北侧",
+      "cuisines": ["面食", "西北风味"],
+      "flavors": ["咸鲜", "微辣"],
+      "averagePrice": 16,
+      "businessHours": [
+        {
+          "days": [1, 2, 3, 4, 5, 6, 7],
+          "start": "06:30",
+          "end": "09:00",
+          "mealPeriods": ["breakfast"]
+        },
+        {
+          "days": [1, 2, 3, 4, 5, 6, 7],
+          "start": "10:30",
+          "end": "20:00",
+          "mealPeriods": ["lunch", "dinner"]
+        }
+      ],
+      "distanceMeters": 420,
+      "rating": 4.3,
+      "dietaryWarnings": ["麸质"],
+      "dishIds": ["dish-003", "dish-004"],
+      "description": "主营汤面、拌面和西北风味面食。"
+    },
+    {
+      "id": "rest-003",
+      "name": "二食堂·轻食窗口",
+      "canteenName": "第二食堂",
+      "location": "第二食堂一层西侧",
+      "cuisines": ["轻食", "西式简餐"],
+      "flavors": ["清淡", "酸甜"],
+      "averagePrice": 24,
+      "businessHours": [
+        {
+          "days": [1, 2, 3, 4, 5],
+          "start": "10:00",
+          "end": "19:00",
+          "mealPeriods": ["lunch", "dinner"]
+        }
+      ],
+      "distanceMeters": 680,
+      "rating": 4.7,
+      "dietaryWarnings": [],
+      "dishIds": ["dish-005", "dish-006"],
+      "description": "提供蔬菜、鸡肉和谷物搭配的轻食套餐。"
+    },
+    {
+      "id": "rest-004",
+      "name": "三食堂·川味小炒",
+      "canteenName": "第三食堂",
+      "location": "第三食堂二层南侧",
+      "cuisines": ["川菜", "中式快餐"],
+      "flavors": ["麻辣", "香辣"],
+      "averagePrice": 22,
+      "businessHours": [
+        {
+          "days": [1, 2, 3, 4, 5, 6, 7],
+          "start": "10:30",
+          "end": "13:45",
+          "mealPeriods": ["lunch"]
+        },
+        {
+          "days": [1, 2, 3, 4, 5, 6, 7],
+          "start": "16:30",
+          "end": "20:30",
+          "mealPeriods": ["dinner"]
+        }
+      ],
+      "distanceMeters": 950,
+      "rating": 4.6,
+      "dietaryWarnings": ["花生"],
+      "dishIds": ["dish-007", "dish-008"],
+      "description": "提供川味小炒，可选择辣度。"
+    },
+    {
+      "id": "rest-005",
+      "name": "学生活动中心·早餐铺",
+      "canteenName": "学生活动中心餐饮区",
+      "location": "学生活动中心一层入口",
+      "cuisines": ["中式早餐"],
+      "flavors": ["清淡", "咸香"],
+      "averagePrice": 9,
+      "businessHours": [
+        {
+          "days": [1, 2, 3, 4, 5, 6],
+          "start": "06:00",
+          "end": "10:00",
+          "mealPeriods": ["breakfast"]
+        }
+      ],
+      "distanceMeters": 180,
+      "rating": 4.2,
+      "dietaryWarnings": ["大豆"],
+      "dishIds": ["dish-009", "dish-010"],
+      "description": "供应包子、粥、豆浆等早餐。"
+    },
+    {
+      "id": "rest-006",
+      "name": "四食堂·夜宵档",
+      "canteenName": "第四食堂",
+      "location": "第四食堂一层北门",
+      "cuisines": ["烧烤", "夜宵"],
+      "flavors": ["香辣", "孜然"],
+      "averagePrice": 28,
+      "businessHours": [
+        {
+          "days": [1, 2, 3, 4, 5, 6, 7],
+          "start": "19:00",
+          "end": "23:30",
+          "mealPeriods": ["late_night"]
+        }
+      ],
+      "distanceMeters": 1200,
+      "rating": null,
+      "dietaryWarnings": [],
+      "dishIds": ["dish-011", "dish-012"],
+      "description": null
+    }
+  ],
+  "dishes": [
+    {
+      "id": "dish-001",
+      "restaurantId": "rest-001",
+      "name": "番茄炒蛋套餐",
+      "price": 16,
+      "cuisine": "家常菜",
+      "flavors": ["清淡", "酸甜"],
+      "ingredients": ["番茄", "鸡蛋", "米饭"],
+      "dietaryWarnings": ["鸡蛋"],
+      "mealPeriods": ["lunch", "dinner"],
+      "description": "番茄炒蛋配米饭和当日蔬菜。"
+    },
+    {
+      "id": "dish-002",
+      "restaurantId": "rest-001",
+      "name": "香菇青菜套餐",
+      "price": 15,
+      "cuisine": "家常菜",
+      "flavors": ["清淡", "咸鲜"],
+      "ingredients": ["香菇", "青菜", "米饭"],
+      "dietaryWarnings": [],
+      "mealPeriods": ["lunch", "dinner"],
+      "description": "香菇青菜配米饭，口味较清淡。"
+    },
+    {
+      "id": "dish-003",
+      "restaurantId": "rest-002",
+      "name": "兰州牛肉面",
+      "price": 18,
+      "cuisine": "西北风味",
+      "flavors": ["咸鲜", "微辣"],
+      "ingredients": ["小麦面条", "牛肉", "香菜"],
+      "dietaryWarnings": ["牛肉", "麸质"],
+      "mealPeriods": ["breakfast", "lunch", "dinner"],
+      "description": "牛肉清汤面，可选择是否加辣。"
+    },
+    {
+      "id": "dish-004",
+      "restaurantId": "rest-002",
+      "name": "油泼面",
+      "price": 14,
+      "cuisine": "西北风味",
+      "flavors": ["香辣", "咸香"],
+      "ingredients": ["小麦面条", "辣椒", "青菜"],
+      "dietaryWarnings": ["麸质"],
+      "mealPeriods": ["lunch", "dinner"],
+      "description": "宽面搭配辣椒和时蔬。"
+    },
+    {
+      "id": "dish-005",
+      "restaurantId": "rest-003",
+      "name": "香煎鸡胸谷物碗",
+      "price": 26,
+      "cuisine": "轻食",
+      "flavors": ["清淡", "咸鲜"],
+      "ingredients": ["鸡胸肉", "糙米", "生菜", "玉米"],
+      "dietaryWarnings": [],
+      "mealPeriods": ["lunch", "dinner"],
+      "description": "鸡胸肉搭配糙米和多种蔬菜。"
+    },
+    {
+      "id": "dish-006",
+      "restaurantId": "rest-003",
+      "name": "蔬菜藜麦沙拉",
+      "price": 22,
+      "cuisine": "轻食",
+      "flavors": ["清淡", "酸甜"],
+      "ingredients": ["藜麦", "生菜", "番茄", "黄瓜"],
+      "dietaryWarnings": [],
+      "mealPeriods": ["lunch", "dinner"],
+      "description": "以藜麦和新鲜蔬菜为主的轻食沙拉。"
+    },
+    {
+      "id": "dish-007",
+      "restaurantId": "rest-004",
+      "name": "宫保鸡丁盖饭",
+      "price": 20,
+      "cuisine": "川菜",
+      "flavors": ["麻辣", "酸甜"],
+      "ingredients": ["鸡肉", "花生", "辣椒", "米饭"],
+      "dietaryWarnings": ["花生"],
+      "mealPeriods": ["lunch", "dinner"],
+      "description": "鸡丁与花生炒制，默认中辣。"
+    },
+    {
+      "id": "dish-008",
+      "restaurantId": "rest-004",
+      "name": "麻婆豆腐盖饭",
+      "price": 17,
+      "cuisine": "川菜",
+      "flavors": ["麻辣", "咸香"],
+      "ingredients": ["豆腐", "辣椒", "米饭"],
+      "dietaryWarnings": ["大豆"],
+      "mealPeriods": ["lunch", "dinner"],
+      "description": "麻辣豆腐配米饭。"
+    },
+    {
+      "id": "dish-009",
+      "restaurantId": "rest-005",
+      "name": "小米南瓜粥",
+      "price": 5,
+      "cuisine": "中式早餐",
+      "flavors": ["清淡", "微甜"],
+      "ingredients": ["小米", "南瓜"],
+      "dietaryWarnings": [],
+      "mealPeriods": ["breakfast"],
+      "description": "小米与南瓜熬制的热粥。"
+    },
+    {
+      "id": "dish-010",
+      "restaurantId": "rest-005",
+      "name": "豆浆包子套餐",
+      "price": 8,
+      "cuisine": "中式早餐",
+      "flavors": ["清淡", "咸香"],
+      "ingredients": ["大豆", "小麦面粉", "蔬菜"],
+      "dietaryWarnings": ["大豆", "麸质"],
+      "mealPeriods": ["breakfast"],
+      "description": "热豆浆搭配两个蔬菜包。"
+    },
+    {
+      "id": "dish-011",
+      "restaurantId": "rest-006",
+      "name": "孜然烤肉饭",
+      "price": 28,
+      "cuisine": "烧烤",
+      "flavors": ["孜然", "咸香"],
+      "ingredients": null,
+      "dietaryWarnings": [],
+      "mealPeriods": ["late_night"],
+      "description": "孜然风味烤肉配米饭。"
+    },
+    {
+      "id": "dish-012",
+      "restaurantId": "rest-006",
+      "name": "香辣烤蔬菜拼盘",
+      "price": 19,
+      "cuisine": "烧烤",
+      "flavors": ["香辣", "孜然"],
+      "ingredients": ["茄子", "青椒", "土豆"],
+      "dietaryWarnings": [],
+      "mealPeriods": ["late_night"],
+      "description": null
+    }
+  ]
+}
